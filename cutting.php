@@ -108,7 +108,7 @@ function strzhong($str, $leftStr, $rightStr){
         return substr($str, $left + strlen($leftStr), $right - $left - strlen($leftStr));
     }
 }
-
+// time
 function secToTime($times){  
         $result = '00:00:00';  
         if ($times>0) {  
